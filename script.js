@@ -7,7 +7,7 @@ function toggleAbout() {
 }
 
 // LOAD words.json
-fetch("words.json")
+fetch(`words.json?v=${Date.now()}`, { cache: "no-store" })
   .then(response => response.json())
   .then(data => {
     words = data;
