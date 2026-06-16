@@ -4798,12 +4798,6 @@
   },
 
   {
-    "word": "nicht zuletzt",
-    "type": "Phrase",
-    "englisch": ["not least"],
-    "bangla": ["শেষ পর্যন্ত", "বিশেষ করে"]
-  },
-  {
     "word": "besiegen",
     "type": "Verb",
     "trennbar": "no",
@@ -4942,12 +4936,6 @@
     "superlativ": "am zusätzlichsten",
     "englisch": ["additional"],
     "bangla": ["অতিরিক্ত"]
-  },
-  {
-    "word": "erst recht",
-    "type": "Phrase",
-    "englisch": ["even more so"],
-    "bangla": ["আরও বেশি করে"]
   },
   {
     "word": "blättern",
@@ -5272,6 +5260,1388 @@
     },
     "englisch": ["to go down"],
     "bangla": ["নিচে নামা"]
+  },
+  {
+    "word": "bezeugen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "bezeugen",
+      "praeteritum": "bezeugte",
+      "perfekt": "hat bezeugt"
+    },
+    "englisch": ["to testify", "to attest"],
+    "bangla": ["সাক্ষ্য দেওয়া", "প্রমাণ করা"]
+  },
+  {
+    "word": "einsetzen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "einsetzen",
+      "praeteritum": "setzte ein",
+      "perfekt": "hat eingesetzt"
+    },
+    "englisch": ["to use", "to insert", "to deploy"],
+    "bangla": ["ব্যবহার করা", "নিযুক্ত করা", "প্রয়োগ করা"]
+  },
+  {
+    "word": "sich wappnen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "yes",
+    "formen": {
+      "infinitiv": "sich wappnen",
+      "praeteritum": "wappnete sich",
+      "perfekt": "hat sich gewappnet"
+    },
+    "englisch": ["to prepare oneself", "to brace oneself"],
+    "bangla": ["নিজেকে প্রস্তুত করা", "প্রস্তুত হওয়া"]
+  },
+  {
+    "word": "verzaubern",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "verzaubern",
+      "praeteritum": "verzauberte",
+      "perfekt": "hat verzaubert"
+    },
+    "englisch": ["to enchant", "to charm"],
+    "bangla": ["মুগ্ধ করা", "জাদু করা"]
+  },
+  {
+    "word": "bewerten",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "bewerten",
+      "praeteritum": "bewertete",
+      "perfekt": "hat bewertet"
+    },
+    "englisch": ["to evaluate", "to rate"],
+    "bangla": ["মূল্যায়ন করা", "রেটিং দেওয়া"]
+  },
+  {
+    "word": "ertönen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "ertönen",
+      "praeteritum": "ertönte",
+      "perfekt": "ist ertönt"
+    },
+    "englisch": ["to sound", "to resound"],
+    "bangla": ["ধ্বনিত হওয়া", "শোনা যাওয়া"]
+  },
+  {
+    "word": "tanken",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "tanken",
+      "praeteritum": "tankte",
+      "perfekt": "hat getankt"
+    },
+    "englisch": ["to refuel", "to fill up"],
+    "bangla": ["জ্বালানি ভরা", "তেল নেওয়া"]
+  },
+  {
+    "word": "widersprechen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "widersprechen",
+      "praeteritum": "widersprach",
+      "perfekt": "hat widersprochen"
+    },
+    "englisch": ["to contradict", "to object"],
+    "bangla": ["বিরোধিতা করা", "আপত্তি করা"]
+  },
+  {
+    "word": "beurteilen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "beurteilen",
+      "praeteritum": "beurteilte",
+      "perfekt": "hat beurteilt"
+    },
+    "englisch": ["to judge", "to assess"],
+    "bangla": ["বিচার করা", "মূল্যায়ন করা"]
+  },
+  {
+    "word": "kündigen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "kündigen",
+      "praeteritum": "kündigte",
+      "perfekt": "hat gekündigt"
+    },
+    "englisch": ["to quit", "to terminate"],
+    "bangla": ["চাকরি ছাড়া", "চুক্তি বাতিল করা"]
+  },
+  {
+    "word": "belegen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "belegen",
+      "praeteritum": "belegte",
+      "perfekt": "hat belegt"
+    },
+    "englisch": ["to prove", "to occupy", "to take a course"],
+    "bangla": ["প্রমাণ করা", "দখল করা", "কোর্স নেওয়া"]
+  },
+  {
+    "word": "herunterkommen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "herunterkommen",
+      "praeteritum": "kam herunter",
+      "perfekt": "ist heruntergekommen"
+    },
+    "englisch": ["to come down"],
+    "bangla": ["নিচে আসা"]
+  },
+  {
+    "word": "aufkommen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "aufkommen",
+      "praeteritum": "kam auf",
+      "perfekt": "ist aufgekommen"
+    },
+    "englisch": ["to arise", "to come up", "to pay for"],
+    "bangla": ["উদ্ভব হওয়া", "উঠে আসা", "খরচ বহন করা"]
+  },
+  {
+    "word": "ausbrechen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "ausbrechen",
+      "praeteritum": "brach aus",
+      "perfekt": "ist ausgebrochen"
+    },
+    "englisch": ["to break out", "to escape"],
+    "bangla": ["শুরু হওয়া", "পালিয়ে যাওয়া"]
+  },
+  {
+    "word": "schnarchen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "schnarchen",
+      "praeteritum": "schnarchte",
+      "perfekt": "hat geschnarcht"
+    },
+    "englisch": ["to snore"],
+    "bangla": ["নাক ডাকা"]
+  },
+  {
+    "word": "veranstalten",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "veranstalten",
+      "praeteritum": "veranstaltete",
+      "perfekt": "hat veranstaltet"
+    },
+    "englisch": ["to organize", "to hold an event"],
+    "bangla": ["আয়োজন করা", "অনুষ্ঠান করা"]
+  },
+  {
+    "word": "einprägen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "einprägen",
+      "praeteritum": "prägte ein",
+      "perfekt": "hat eingeprägt"
+    },
+    "englisch": ["to memorize", "to impress"],
+    "bangla": ["মনে গেঁথে দেওয়া", "মুখস্থ করা"]
+  },
+  {
+    "word": "gewährleisten",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "gewährleisten",
+      "praeteritum": "gewährleistete",
+      "perfekt": "hat gewährleistet"
+    },
+    "englisch": ["to guarantee", "to ensure"],
+    "bangla": ["নিশ্চিত করা", "গ্যারান্টি দেওয়া"]
+  },
+  {
+    "word": "sich bewaffnen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "yes",
+    "formen": {
+      "infinitiv": "sich bewaffnen",
+      "praeteritum": "bewaffnete sich",
+      "perfekt": "hat sich bewaffnet"
+    },
+    "englisch": ["to arm oneself"],
+    "bangla": ["নিজেকে অস্ত্রসজ্জিত করা"]
+  },
+  {
+    "word": "prokrastinieren",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "prokrastinieren",
+      "praeteritum": "prokrastinierte",
+      "perfekt": "hat prokrastiniert"
+    },
+    "englisch": ["to procrastinate"],
+    "bangla": ["কাজ ফেলে রাখা", "গড়িমসি করা"]
+  },
+  {
+    "word": "benachrichtigen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "benachrichtigen",
+      "praeteritum": "benachrichtigte",
+      "perfekt": "hat benachrichtigt"
+    },
+    "englisch": ["to notify", "to inform"],
+    "bangla": ["জানানো", "অবহিত করা"]
+  },
+  {
+    "word": "wechseln",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "wechseln",
+      "praeteritum": "wechselte",
+      "perfekt": "hat gewechselt"
+    },
+    "englisch": ["to change", "to switch"],
+    "bangla": ["পরিবর্তন করা", "বদলানো"]
+  },
+  {
+    "word": "beantragen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "beantragen",
+      "praeteritum": "beantragte",
+      "perfekt": "hat beantragt"
+    },
+    "englisch": ["to apply for", "to request"],
+    "bangla": ["আবেদন করা", "অনুরোধ করা"]
+  },
+  {
+    "word": "hinterfragen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "hinterfragen",
+      "praeteritum": "hinterfragte",
+      "perfekt": "hat hinterfragt"
+    },
+    "englisch": ["to question critically", "to scrutinize"],
+    "bangla": ["সমালোচনামূলকভাবে প্রশ্ন করা", "খতিয়ে দেখা"]
+  },
+  {
+    "word": "schmeißen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "schmeißen",
+      "praeteritum": "schmiss",
+      "perfekt": "hat geschmissen"
+    },
+    "englisch": ["to throw", "to quit"],
+    "bangla": ["ছুঁড়ে ফেলা", "ছেড়ে দেওয়া"]
+  },
+  {
+    "word": "dranbleiben",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "dranbleiben",
+      "praeteritum": "blieb dran",
+      "perfekt": "ist drangeblieben"
+    },
+    "englisch": ["to stick with it", "to stay on it"],
+    "bangla": ["লেগে থাকা", "চালিয়ে যাওয়া"]
+  },
+  {
+    "word": "ausgehen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "ausgehen",
+      "praeteritum": "ging aus",
+      "perfekt": "ist ausgegangen"
+    },
+    "englisch": ["to go out", "to assume", "to run out"],
+    "bangla": ["বাইরে যাওয়া", "ধরে নেওয়া", "শেষ হয়ে যাওয়া"]
+  },
+  {
+    "word": "genehmigen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "genehmigen",
+      "praeteritum": "genehmigte",
+      "perfekt": "hat genehmigt"
+    },
+    "englisch": ["to approve", "to authorize"],
+    "bangla": ["অনুমোদন করা", "অনুমতি দেওয়া"]
+  },
+  {
+    "word": "einhaken",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "einhaken",
+      "praeteritum": "hakte ein",
+      "perfekt": "hat eingehakt"
+    },
+    "englisch": ["to hook in", "to interject"],
+    "bangla": ["আটকে দেওয়া", "কথায় ঢুকে পড়া"]
+  },
+  {
+    "word": "frustrieren",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "frustrieren",
+      "praeteritum": "frustrierte",
+      "perfekt": "hat frustriert"
+    },
+    "englisch": ["to frustrate"],
+    "bangla": ["হতাশ করা"]
+  },
+  {
+    "word": "absteigen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "absteigen",
+      "praeteritum": "stieg ab",
+      "perfekt": "ist abgestiegen"
+    },
+    "englisch": ["to descend", "to get off"],
+    "bangla": ["নেমে যাওয়া", "নামা"]
+  },
+  {
+    "word": "belassen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "belassen",
+      "praeteritum": "beließ",
+      "perfekt": "hat belassen"
+    },
+    "englisch": ["to leave as is"],
+    "bangla": ["যেমন আছে তেমন রাখা"]
+  },
+  {
+    "word": "beeinträchtigen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "beeinträchtigen",
+      "praeteritum": "beeinträchtigte",
+      "perfekt": "hat beeinträchtigt"
+    },
+    "englisch": ["to impair", "to affect negatively"],
+    "bangla": ["ক্ষতিগ্রস্ত করা", "বাধা দেওয়া"]
+  },
+  {
+    "word": "auftreten",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "auftreten",
+      "praeteritum": "trat auf",
+      "perfekt": "ist aufgetreten"
+    },
+    "englisch": ["to appear", "to perform"],
+    "bangla": ["দেখা দেওয়া", "মঞ্চে ওঠা"]
+  },
+  {
+    "word": "verinnerlichen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "verinnerlichen",
+      "praeteritum": "verinnerlichte",
+      "perfekt": "hat verinnerlicht"
+    },
+    "englisch": ["to internalize"],
+    "bangla": ["মনে গেঁথে নেওয়া", "আত্মস্থ করা"]
+  },
+  {
+    "word": "beschleunigen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "beschleunigen",
+      "praeteritum": "beschleunigte",
+      "perfekt": "hat beschleunigt"
+    },
+    "englisch": ["to accelerate", "to speed up"],
+    "bangla": ["দ্রুত করা", "গতি বাড়ানো"]
+  },
+  {
+    "word": "hinausschicken",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "hinausschicken",
+      "praeteritum": "schickte hinaus",
+      "perfekt": "hat hinausgeschickt"
+    },
+    "englisch": ["to send out"],
+    "bangla": ["বাইরে পাঠানো"]
+  },
+  {
+    "word": "vortäuschen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "vortäuschen",
+      "praeteritum": "täuschte vor",
+      "perfekt": "hat vorgetäuscht"
+    },
+    "englisch": ["to pretend", "to feign"],
+    "bangla": ["ভান করা", "মিথ্যা অভিনয় করা"]
+  },
+  {
+    "word": "beleuchten",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "beleuchten",
+      "praeteritum": "beleuchtete",
+      "perfekt": "hat beleuchtet"
+    },
+    "englisch": ["to illuminate", "to examine"],
+    "bangla": ["আলোকিত করা", "বিশ্লেষণ করা"]
+  },
+  {
+    "word": "einrichten",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "einrichten",
+      "praeteritum": "richtete ein",
+      "perfekt": "hat eingerichtet"
+    },
+    "englisch": ["to set up", "to furnish"],
+    "bangla": ["সেট আপ করা", "সাজানো"]
+  },
+  {
+    "word": "begehen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "begehen",
+      "praeteritum": "beging",
+      "perfekt": "hat begangen"
+    },
+    "englisch": ["to commit", "to celebrate"],
+    "bangla": ["করা", "উদযাপন করা"]
+  },
+  {
+    "word": "austricksen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "austricksen",
+      "praeteritum": "trickste aus",
+      "perfekt": "hat ausgetrickst"
+    },
+    "englisch": ["to outsmart", "to trick"],
+    "bangla": ["চালাকি করে হারানো", "বোকা বানানো"]
+  },
+  {
+    "word": "erörtern",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "erörtern",
+      "praeteritum": "erörterte",
+      "perfekt": "hat erörtert"
+    },
+    "englisch": ["to discuss", "to debate"],
+    "bangla": ["আলোচনা করা", "বিতর্ক করা"]
+  },
+  {
+    "word": "reaktivieren",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "reaktivieren",
+      "praeteritum": "reaktivierte",
+      "perfekt": "hat reaktiviert"
+    },
+    "englisch": ["to reactivate"],
+    "bangla": ["পুনরায় সক্রিয় করা"]
+  },
+  {
+    "word": "stammen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "stammen",
+      "praeteritum": "stammte",
+      "perfekt": "hat gestammt"
+    },
+    "englisch": ["to come from", "to originate"],
+    "bangla": ["উৎপত্তি হওয়া", "এসে থাকা"]
+  },
+  {
+    "word": "wappnen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "wappnen",
+      "praeteritum": "wappnete",
+      "perfekt": "hat gewappnet"
+    },
+    "englisch": ["to arm", "to prepare"],
+    "bangla": ["সজ্জিত করা", "প্রস্তুত করা"]
+  },
+  {
+    "word": "nicken",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "nicken",
+      "praeteritum": "nickte",
+      "perfekt": "hat genickt"
+    },
+    "englisch": ["to nod"],
+    "bangla": ["মাথা নাড়া"]
+  },
+  {
+    "word": "wegklicken",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "wegklicken",
+      "praeteritum": "klickte weg",
+      "perfekt": "hat weggeklickt"
+    },
+    "englisch": ["to click away", "to dismiss by clicking"],
+    "bangla": ["ক্লিক করে সরানো", "ক্লিক করে বন্ধ করা"]
+  },
+  {
+    "word": "verplanen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "verplanen",
+      "praeteritum": "verplante",
+      "perfekt": "hat verplant"
+    },
+    "englisch": ["to schedule", "to plan badly"],
+    "bangla": ["পরিকল্পনা করে রাখা", "ভুলভাবে পরিকল্পনা করা"]
+  },
+  {
+    "word": "anschließen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "anschließen",
+      "praeteritum": "schloss an",
+      "perfekt": "hat angeschlossen"
+    },
+    "englisch": ["to connect", "to join"],
+    "bangla": ["সংযুক্ত করা", "যোগ দেওয়া"]
+  },
+  {
+    "word": "einlegen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "einlegen",
+      "praeteritum": "legte ein",
+      "perfekt": "hat eingelegt"
+    },
+    "englisch": ["to insert", "to put in", "to pickle"],
+    "bangla": ["ঢোকানো", "রাখা", "আচার বানানো"]
+  },
+  {
+    "word": "festlegen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "festlegen",
+      "praeteritum": "legte fest",
+      "perfekt": "hat festgelegt"
+    },
+    "englisch": ["to determine", "to set"],
+    "bangla": ["নির্ধারণ করা", "স্থির করা"]
+  },
+  {
+    "word": "abspielen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "abspielen",
+      "praeteritum": "spielte ab",
+      "perfekt": "hat abgespielt"
+    },
+    "englisch": ["to play", "to play back"],
+    "bangla": ["চালানো", "প্লে করা"]
+  },
+  {
+    "word": "zurückbleiben",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "zurückbleiben",
+      "praeteritum": "blieb zurück",
+      "perfekt": "ist zurückgeblieben"
+    },
+    "englisch": ["to stay behind", "to lag behind"],
+    "bangla": ["পিছনে থেকে যাওয়া", "পিছিয়ে পড়া"]
+  },
+  {
+    "word": "anfügen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "anfügen",
+      "praeteritum": "fügte an",
+      "perfekt": "hat angefügt"
+    },
+    "englisch": ["to add", "to append"],
+    "bangla": ["যোগ করা", "সংযুক্ত করা"]
+  },
+  {
+    "word": "nachahmen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "nachahmen",
+      "praeteritum": "ahmte nach",
+      "perfekt": "hat nachgeahmt"
+    },
+    "englisch": ["to imitate", "to mimic"],
+    "bangla": ["অনুকরণ করা", "নকল করা"]
+  },
+  {
+    "word": "überarbeiten",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "überarbeiten",
+      "praeteritum": "überarbeitete",
+      "perfekt": "hat überarbeitet"
+    },
+    "englisch": ["to revise", "to rework"],
+    "bangla": ["সংশোধন করা", "পুনরায় কাজ করা"]
+  },
+  {
+    "word": "einwenden",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "einwenden",
+      "praeteritum": "wandte ein",
+      "perfekt": "hat eingewandt"
+    },
+    "englisch": ["to object", "to raise an objection"],
+    "bangla": ["আপত্তি জানানো", "আপত্তি তোলা"]
+  },
+  {
+    "word": "vorschreiben",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "vorschreiben",
+      "praeteritum": "schrieb vor",
+      "perfekt": "hat vorgeschrieben"
+    },
+    "englisch": ["to prescribe", "to dictate"],
+    "bangla": ["নির্দেশ দেওয়া", "বাধ্যতামূলক করা"]
+  },
+  {
+    "word": "auswerten",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "auswerten",
+      "praeteritum": "wertete aus",
+      "perfekt": "hat ausgewertet"
+    },
+    "englisch": ["to evaluate", "to analyze"],
+    "bangla": ["মূল্যায়ন করা", "বিশ্লেষণ করা"]
+  },
+  {
+    "word": "sich blamieren",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "yes",
+    "formen": {
+      "infinitiv": "sich blamieren",
+      "praeteritum": "blamierte sich",
+      "perfekt": "hat sich blamiert"
+    },
+    "englisch": ["to embarrass oneself"],
+    "bangla": ["নিজেকে লজ্জায় ফেলা"]
+  },
+  {
+    "word": "abnehmen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "abnehmen",
+      "praeteritum": "nahm ab",
+      "perfekt": "hat abgenommen"
+    },
+    "englisch": ["to lose weight", "to take off", "to decrease"],
+    "bangla": ["ওজন কমানো", "খুলে নেওয়া", "কমে যাওয়া"]
+  },
+  {
+    "word": "mischen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "mischen",
+      "praeteritum": "mischte",
+      "perfekt": "hat gemischt"
+    },
+    "englisch": ["to mix"],
+    "bangla": ["মেশানো"]
+  },
+  {
+    "word": "erwärmen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "erwärmen",
+      "praeteritum": "erwärmte",
+      "perfekt": "hat erwärmt"
+    },
+    "englisch": ["to warm", "to heat up"],
+    "bangla": ["গরম করা", "উষ্ণ করা"]
+  },
+  {
+    "word": "nachsprechen",
+    "type": "Verb",
+    "trennbar": "yes",
+    "regelmaessig": "no",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "nachsprechen",
+      "praeteritum": "sprach nach",
+      "perfekt": "hat nachgesprochen"
+    },
+    "englisch": ["to repeat after someone"],
+    "bangla": ["শুনে পুনরাবৃত্তি করা"]
+  },
+  {
+    "word": "heilen",
+    "type": "Verb",
+    "trennbar": "no",
+    "regelmaessig": "yes",
+    "reflexiv": "no",
+    "formen": {
+      "infinitiv": "heilen",
+      "praeteritum": "heilte",
+      "perfekt": "hat geheilt"
+    },
+    "englisch": ["to heal", "to cure"],
+    "bangla": ["সুস্থ করা", "আরোগ্য করা"]
+  },
+  {
+    "word": "verlässlich",
+    "type": "Adjektiv",
+    "komparativ": "verlässlicher",
+    "superlativ": "am verlässlichsten",
+    "englisch": ["reliable", "dependable"],
+    "bangla": ["নির্ভরযোগ্য", "বিশ্বাসযোগ্য"]
+  },
+  {
+    "word": "erforderlich",
+    "type": "Adjektiv",
+    "komparativ": "erforderlicher",
+    "superlativ": "am erforderlichsten",
+    "englisch": ["necessary", "required"],
+    "bangla": ["প্রয়োজনীয়", "আবশ্যক"]
+  },
+  {
+    "word": "einigermaßen",
+    "type": "Adverb",
+    "englisch": ["somewhat", "reasonably"],
+    "bangla": ["মোটামুটি", "কিছুটা"]
+  },
+  {
+    "word": "oberflächlich",
+    "type": "Adjektiv",
+    "komparativ": "oberflächlicher",
+    "superlativ": "am oberflächlichsten",
+    "englisch": ["superficial", "shallow"],
+    "bangla": ["উপরিতলীয়", "অগভীর"]
+  },
+  {
+    "word": "angesprochen",
+    "type": "Adjektiv",
+    "komparativ": "—",
+    "superlativ": "—",
+    "englisch": ["addressed", "mentioned"],
+    "bangla": ["উল্লেখিত", "সম্বোধিত"]
+  },
+  {
+    "word": "hervorragend",
+    "type": "Adjektiv",
+    "komparativ": "hervorragender",
+    "superlativ": "am hervorragendsten",
+    "englisch": ["excellent", "outstanding"],
+    "bangla": ["চমৎকার", "অসাধারণ"]
+  },
+  {
+    "word": "phänomenal",
+    "type": "Adjektiv",
+    "komparativ": "phänomenaler",
+    "superlativ": "am phänomenalsten",
+    "englisch": ["phenomenal"],
+    "bangla": ["অসাধারণ", "অভূতপূর্ব"]
+  },
+  {
+    "word": "erstaunlich",
+    "type": "Adjektiv",
+    "komparativ": "erstaunlicher",
+    "superlativ": "am erstaunlichsten",
+    "englisch": ["amazing", "surprising"],
+    "bangla": ["আশ্চর্যজনক", "বিস্ময়কর"]
+  },
+  {
+    "word": "ausbaufähig",
+    "type": "Adjektiv",
+    "komparativ": "ausbaufähiger",
+    "superlativ": "am ausbaufähigsten",
+    "englisch": ["expandable", "capable of improvement"],
+    "bangla": ["আরও উন্নত করা যায় এমন", "সম্প্রসারণযোগ্য"]
+  },
+  {
+    "word": "frustrierend",
+    "type": "Adjektiv",
+    "komparativ": "frustrierender",
+    "superlativ": "am frustrierendsten",
+    "englisch": ["frustrating"],
+    "bangla": ["হতাশাজনক"]
+  },
+  {
+    "word": "gleichmäßig",
+    "type": "Adjektiv",
+    "komparativ": "gleichmäßiger",
+    "superlativ": "am gleichmäßigsten",
+    "englisch": ["even", "uniform", "regular"],
+    "bangla": ["সমানভাবে", "নিয়মিত", "সুষম"]
+  },
+  {
+    "word": "eindeutig",
+    "type": "Adjektiv",
+    "komparativ": "eindeutiger",
+    "superlativ": "am eindeutigsten",
+    "englisch": ["clear", "unambiguous"],
+    "bangla": ["স্পষ্ট", "দ্ব্যর্থহীন"]
+  },
+  {
+    "word": "eher",
+    "type": "Adverb",
+    "englisch": ["rather", "more likely", "sooner"],
+    "bangla": ["বরং", "সম্ভবত বেশি", "আগে"]
+  },
+  {
+    "word": "vielseitig",
+    "type": "Adjektiv",
+    "komparativ": "vielseitiger",
+    "superlativ": "am vielseitigsten",
+    "englisch": ["versatile", "multifaceted"],
+    "bangla": ["বহুমুখী", "নানামুখী"]
+  },
+  {
+    "word": "fragwürdig",
+    "type": "Adjektiv",
+    "komparativ": "fragwürdiger",
+    "superlativ": "am fragwürdigsten",
+    "englisch": ["questionable", "dubious"],
+    "bangla": ["সন্দেহজনক", "প্রশ্নবিদ্ধ"]
+  },
+  {
+    "word": "ausreichend",
+    "type": "Adjektiv",
+    "komparativ": "ausreichender",
+    "superlativ": "am ausreichendsten",
+    "englisch": ["sufficient", "adequate"],
+    "bangla": ["পর্যাপ্ত", "যথেষ্ট"]
+  },
+  {
+    "word": "ausdrücklich",
+    "type": "Adjektiv",
+    "komparativ": "ausdrücklicher",
+    "superlativ": "am ausdrücklichsten",
+    "englisch": ["explicit", "express"],
+    "bangla": ["স্পষ্ট", "সুস্পষ্টভাবে বলা"]
+  },
+  {
+    "word": "bezaubernd",
+    "type": "Adjektiv",
+    "komparativ": "bezaubernder",
+    "superlativ": "am bezauberndsten",
+    "englisch": ["charming", "enchanting"],
+    "bangla": ["মুগ্ধকর", "মনোমুগ্ধকর"]
+  },
+  {
+    "word": "schattenhaft",
+    "type": "Adjektiv",
+    "komparativ": "schattenhafter",
+    "superlativ": "am schattenhaftesten",
+    "englisch": ["shadowy", "vague"],
+    "bangla": ["ছায়াময়", "অস্পষ্ট"]
+  },
+  {
+    "word": "umfassend",
+    "type": "Adjektiv",
+    "komparativ": "umfassender",
+    "superlativ": "am umfassendsten",
+    "englisch": ["comprehensive", "extensive"],
+    "bangla": ["ব্যাপক", "সামগ্রিক"]
+  },
+  {
+    "word": "erheblich",
+    "type": "Adjektiv",
+    "komparativ": "erheblicher",
+    "superlativ": "am erheblichsten",
+    "englisch": ["considerable", "significant"],
+    "bangla": ["উল্লেখযোগ্য", "যথেষ্ট"]
+  },
+  {
+    "word": "naheliegend",
+    "type": "Adjektiv",
+    "komparativ": "naheliegender",
+    "superlativ": "am naheliegendsten",
+    "englisch": ["obvious", "natural"],
+    "bangla": ["স্বাভাবিক", "সহজে বোঝা যায় এমন"]
+  },
+  {
+    "word": "kritikfähig",
+    "type": "Adjektiv",
+    "komparativ": "kritikfähiger",
+    "superlativ": "am kritikfähigsten",
+    "englisch": ["able to take criticism"],
+    "bangla": ["সমালোচনা গ্রহণে সক্ষম"]
+  },
+  {
+    "word": "verstaubt",
+    "type": "Adjektiv",
+    "komparativ": "verstaubter",
+    "superlativ": "am verstaubtesten",
+    "englisch": ["dusty", "outdated"],
+    "bangla": ["ধুলোময়", "সেকেলে"]
+  },
+  {
+    "word": "hinterher",
+    "type": "Adverb",
+    "englisch": ["afterwards", "behind"],
+    "bangla": ["পরে", "পেছনে"]
+  },
+  {
+    "word": "künftig",
+    "type": "Adjektiv",
+    "komparativ": "künftiger",
+    "superlativ": "am künftigsten",
+    "englisch": ["future", "forthcoming"],
+    "bangla": ["ভবিষ্যৎ", "আগামী"]
+  },
+  {
+    "word": "einheitlich",
+    "type": "Adjektiv",
+    "komparativ": "einheitlicher",
+    "superlativ": "am einheitlichsten",
+    "englisch": ["uniform", "consistent"],
+    "bangla": ["একীভূত", "সামঞ্জস্যপূর্ণ"]
+  },
+  {
+    "word": "bezogen",
+    "type": "Adjektiv",
+    "komparativ": "bezogener",
+    "superlativ": "am bezogensten",
+    "englisch": ["related", "covered"],
+    "bangla": ["সম্পর্কিত", "ঢাকা"]
+  },
+  {
+    "word": "nachhaltig",
+    "type": "Adjektiv",
+    "komparativ": "nachhaltiger",
+    "superlativ": "am nachhaltigsten",
+    "englisch": ["sustainable", "lasting"],
+    "bangla": ["টেকসই", "দীর্ঘস্থায়ী"]
+  },
+  {
+    "word": "individuell",
+    "type": "Adjektiv",
+    "komparativ": "individueller",
+    "superlativ": "am individuellsten",
+    "englisch": ["individual", "customized"],
+    "bangla": ["ব্যক্তিগত", "স্বতন্ত্র"]
+  },
+  {
+    "word": "ausführlich",
+    "type": "Adjektiv",
+    "komparativ": "ausführlicher",
+    "superlativ": "am ausführlichsten",
+    "englisch": ["detailed", "extensive"],
+    "bangla": ["বিস্তারিত", "সম্পূর্ণভাবে"]
+  },
+  {
+    "word": "zweckmäßig",
+    "type": "Adjektiv",
+    "komparativ": "zweckmäßiger",
+    "superlativ": "am zweckmäßigsten",
+    "englisch": ["appropriate", "practical"],
+    "bangla": ["উপযোগী", "কার্যকর"]
+  },
+  {
+    "word": "ansprechend",
+    "type": "Adjektiv",
+    "komparativ": "ansprechender",
+    "superlativ": "am ansprechendsten",
+    "englisch": ["appealing", "attractive"],
+    "bangla": ["আকর্ষণীয়", "মনোরম"]
+  },
+  {
+    "word": "spürbar",
+    "type": "Adjektiv",
+    "komparativ": "spürbarer",
+    "superlativ": "am spürbarsten",
+    "englisch": ["noticeable", "perceptible"],
+    "bangla": ["অনুভবযোগ্য", "লক্ষণীয়"]
+  },
+  {
+    "word": "wiederum",
+    "type": "Adverb",
+    "englisch": ["in turn", "again"],
+    "bangla": ["আবার", "অন্যদিকে"]
+  },
+  {
+    "word": "ewig",
+    "type": "Adjektiv",
+    "komparativ": "ewiger",
+    "superlativ": "am ewigsten",
+    "englisch": ["eternal", "forever"],
+    "bangla": ["চিরন্তন", "অনন্ত"]
+  },
+  {
+    "word": "folglich",
+    "type": "Adverb",
+    "englisch": ["therefore", "consequently"],
+    "bangla": ["অতএব", "ফলে"]
+  },
+  {
+    "word": "kürzlich",
+    "type": "Adverb",
+    "englisch": ["recently"],
+    "bangla": ["সম্প্রতি"]
+  },
+  {
+    "word": "inwiefern",
+    "type": "Adverb",
+    "englisch": ["to what extent", "in what way"],
+    "bangla": ["কতটা", "কীভাবে"]
+  },
+  {
+    "word": "melancholisch",
+    "type": "Adjektiv",
+    "komparativ": "melancholischer",
+    "superlativ": "am melancholischsten",
+    "englisch": ["melancholic", "sad"],
+    "bangla": ["বিষণ্ণ", "মনমরা"]
+  },
+  {
+    "word": "effektiv",
+    "type": "Adjektiv",
+    "komparativ": "effektiver",
+    "superlativ": "am effektivsten",
+    "englisch": ["effective"],
+    "bangla": ["কার্যকর"]
+  },
+  {
+    "word": "relevant",
+    "type": "Adjektiv",
+    "komparativ": "relevanter",
+    "superlativ": "am relevantesten",
+    "englisch": ["relevant"],
+    "bangla": ["প্রাসঙ্গিক"]
+  },
+  {
+    "word": "zweifellos",
+    "type": "Adverb",
+    "englisch": ["undoubtedly", "without doubt"],
+    "bangla": ["নিঃসন্দেহে"]
+  },
+  {
+    "word": "demnach",
+    "type": "Adverb",
+    "englisch": ["accordingly", "therefore"],
+    "bangla": ["সে অনুযায়ী", "অতএব"]
+  },
+  {
+    "word": "kurzerhand",
+    "type": "Adverb",
+    "englisch": ["without further ado", "summarily"],
+    "bangla": ["তাৎক্ষণিকভাবে", "বিনা দেরিতে"]
+  },
+  {
+    "word": "auffällig",
+    "type": "Adjektiv",
+    "komparativ": "auffälliger",
+    "superlativ": "am auffälligsten",
+    "englisch": ["noticeable", "conspicuous"],
+    "bangla": ["চোখে পড়ার মতো", "লক্ষণীয়"]
+  },
+  {
+    "word": "konkret",
+    "type": "Adjektiv",
+    "komparativ": "konkreter",
+    "superlativ": "am konkretesten",
+    "englisch": ["concrete", "specific"],
+    "bangla": ["নির্দিষ্ট", "বাস্তব"]
+  },
+  {
+    "word": "einzig",
+    "type": "Adjektiv",
+    "komparativ": "einziger",
+    "superlativ": "am einzigsten",
+    "englisch": ["only", "unique"],
+    "bangla": ["একমাত্র", "অনন্য"]
+  },
+  {
+    "word": "fester",
+    "type": "Adjektiv",
+    "komparativ": "fester",
+    "superlativ": "am festesten",
+    "englisch": ["firmer", "more solid"],
+    "bangla": ["আরও দৃঢ়", "আরও শক্ত"]
+  },
+  {
+    "word": "eben",
+    "type": "Adverb",
+    "englisch": ["just", "exactly", "flat"],
+    "bangla": ["এইমাত্র", "ঠিক", "সমতলভাবে"]
+  },
+  {
+    "word": "besonnen",
+    "type": "Adjektiv",
+    "komparativ": "besonnener",
+    "superlativ": "am besonnensten",
+    "englisch": ["calm", "level-headed"],
+    "bangla": ["বিবেচক", "শান্ত"]
+  },
+  {
+    "word": "behilflich",
+    "type": "Adjektiv",
+    "komparativ": "behilflicher",
+    "superlativ": "am behilflichsten",
+    "englisch": ["helpful"],
+    "bangla": ["সহায়ক"]
+  },
+  {
+    "word": "genial",
+    "type": "Adjektiv",
+    "komparativ": "genialer",
+    "superlativ": "am genialsten",
+    "englisch": ["brilliant", "ingenious"],
+    "bangla": ["অসাধারণ", "প্রতিভাবান"]
+  },
+  {
+    "word": "unheimlich",
+    "type": "Adjektiv",
+    "komparativ": "unheimlicher",
+    "superlativ": "am unheimlichsten",
+    "englisch": ["eerie", "incredibly"],
+    "bangla": ["ভৌতিক", "অত্যন্ত"]
+  },
+  {
+    "word": "geflasht",
+    "type": "Adjektiv",
+    "komparativ": "geflashter",
+    "superlativ": "am geflashtesten",
+    "englisch": ["amazed", "blown away"],
+    "bangla": ["অবাক", "মুগ্ধ"]
+  },
+  {
+    "word": "zumindest",
+    "type": "Adverb",
+    "englisch": ["at least"],
+    "bangla": ["অন্তত"]
+  },
+  {
+    "word": "glatt",
+    "type": "Adjektiv",
+    "komparativ": "glatter",
+    "superlativ": "am glattesten",
+    "englisch": ["smooth", "slippery"],
+    "bangla": ["মসৃণ", "পিচ্ছিল"]
+  },
+  {
+    "word": "vorab",
+    "type": "Adverb",
+    "englisch": ["in advance", "beforehand"],
+    "bangla": ["আগেভাগে", "পূর্বেই"]
+  },
+  {
+    "word": "ohnehin",
+    "type": "Adverb",
+    "englisch": ["anyway", "in any case"],
+    "bangla": ["যাই হোক", "যে কোনোভাবেই"]
+  },
+  {
+    "word": "vertraut",
+    "type": "Adjektiv",
+    "komparativ": "vertrauter",
+    "superlativ": "am vertrautesten",
+    "englisch": ["familiar", "trusted"],
+    "bangla": ["পরিচিত", "বিশ্বস্ত"]
+  },
+  {
+    "word": "nahezu",
+    "type": "Adverb",
+    "englisch": ["almost", "nearly"],
+    "bangla": ["প্রায়"]
   }
 
 ]
