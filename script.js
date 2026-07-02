@@ -1,225 +1,341 @@
+// ===============================
+// Global Variables
+// ===============================
+
 let words = [];
 let currentSection = null;
 
+// ===============================
+// About Panel
+// ===============================
+
 function toggleAbout() {
-  const panel = document.getElementById("aboutPanel");
-  panel.classList.toggle("active");
+    document.getElementById("aboutPanel").classList.toggle("active");
 }
 
-// LOAD words.json
-fetch(`words.json?v=${Date.now()}`, { cache: "no-store" })
-  .then(response => response.json())
-  .then(data => {
+// ===============================
+// Load words.json
+// ===============================
+
+fetch("words.json?v=" + Date.now(), { cache: "no-store" })
+    .then(response => response.json())
+    .then(data => {
+
     words = data;
-    console.log("Words loaded:", words.length);
-  });
 
+    console.log("Loaded " + words.length + " words.");
 
-// ================= SHOW SECTION =================
-function showSection(sectionIndex) {
+    checkDuplicates();
 
-  const wordDisplay = document.getElementById("wordDisplay");
+})
+    .catch(error => {
 
-  // If same section clicked again → hide it
-  if (currentSection === sectionIndex) {
-    wordDisplay.innerHTML = "";
-    currentSection = null;
-    return;
-  }
+        console.error(error);
 
-  // Otherwise show section
-  wordDisplay.innerHTML = "";
-  currentSection = sectionIndex;
+        document.getElementById("searchResult").innerHTML =
+            "<p>Unable to load words.json.</p>";
 
-  const start = sectionIndex * 100;
-  const end = start + 100;
+    });
 
-  const sectionWords = words.slice(start, end);
-  // Split into 4 groups of 25
-  const col1 = sectionWords.slice(0, 25);
-  const col2 = sectionWords.slice(25, 50);
-  const col3 = sectionWords.slice(50, 75);
-  const col4 = sectionWords.slice(75, 100);
+// ===============================
+// Search
+// ===============================
 
-  wordDisplay.innerHTML = `
-    <div class="words-columns">
-      <div class="column">
-        ${col1.map((item, i) => `<div class="word-item">${start + i + 1}. ${item.word}</div>`).join("")}
-      </div>
-
-      <div class="column">
-        ${col2.map((item, i) => `<div class="word-item">${start + i + 26}. ${item.word}</div>`).join("")}
-      </div>
-
-      <div class="column">
-        ${col3.map((item, i) => `<div class="word-item">${start + i + 51}. ${item.word}</div>`).join("")}
-      </div>
-
-      <div class="column">
-        ${col4.map((item, i) => `<div class="word-item">${start + i + 76}. ${item.word}</div>`).join("")}
-      </div>
-    </div>
-  `;
-  //  // Create 4 columns
-  // wordDisplay.innerHTML = `
-  //   <div class="words-grid">
-  //     ${sectionWords.map((item, index) => `
-  //       <div class="word-item">
-  //         ${start + index + 1}. ${item.word}
-  //       </div>
-  //     `).join("")}
-  //   </div>
-  // `;
-
-    /* sectionWords.forEach((item, index) => {
-      wordDisplay.innerHTML += `
-        <div class="word-item">
-          ${start + index + 1}. ${item.word}
-        </div>
-      `;
-    }); */
-}
-
-
-// ================= SEARCH =================
 function searchWord() {
 
-  const input = document.getElementById("searchInput").value.trim();
-  const result = document.getElementById("searchResult");
+    const input = document
+        .getElementById("searchInput")
+        .value
+        .trim();
 
-  result.innerHTML = ""; // clear previous results
+    const result = document.getElementById("searchResult");
 
-  // Prevent numbers
-  if (!isNaN(input) && input !== "") {
-    result.innerHTML = "Du darfst keine Nummer eingeben, bitte schreibe ein Wort!";
-    return;
-  }
+    result.innerHTML = "";
 
-  const foundWords = words.filter(item =>
-    item.word.toLowerCase().trim() === input.toLowerCase().trim()
-  );
+    // Empty
+    if (input === "") {
 
-  // ❌ Not found
-  if (foundWords.length === 0) {
-    result.innerHTML = "❌ Word not added yet.";
-    return;
-  }
+        result.innerHTML = "<p>Please enter a word.</p>";
+        return;
 
-  // ✅ Only ONE result → show normally
-  if (foundWords.length === 1) {
-    showWord(foundWords[0]);
-  }
+    }
 
-  // ✅ Multiple results
-  else {
+    // Numbers not allowed
+    if (!isNaN(input)) {
 
-    const positions = foundWords.map(word => words.indexOf(word) + 1);
+        result.innerHTML =
+            "<p>Numbers are not allowed. Please search using a word.</p>";
+
+        return;
+
+    }
+
+    // Find ALL matching words
+
+    const foundWords = words.filter(item =>
+        item.word.toLowerCase().trim() === input.toLowerCase().trim()
+    );
+
+    // Word not found
+
+    if (foundWords.length === 0) {
+
+        result.innerHTML = `
+
+        <div class="word-item">
+
+            <h2>❌ ${input}</h2>
+
+            <p>This word is not added yet.</p>
+
+        </div>
+
+        `;
+
+        return;
+
+    }
+
+    // Find positions
+
+    const positions = foundWords.map(item => words.indexOf(item) + 1);
 
     result.innerHTML = `
-      <h3>Found ${foundWords.length} results – at ${positions.join(" & ")}</h3>
+
+    <div class="word-item">
+
+        <h2>✅ ${input}</h2>
+
+        <p><strong>Status:</strong> This word is added.</p>
+
+        <p><strong>Total Result(s):</strong> ${foundWords.length}</p>
+
+        <p><strong>Position(s):</strong> ${positions.join(", ")}</p>
+
+    </div>
+
     `;
 
-    foundWords.forEach(found => {
-      showWord(found);
+    // Show every matching word
+
+    foundWords.forEach((item, index) => {
+
+        result.innerHTML += `
+
+        <div class="word-item">
+
+            <h2>${index + 1}. ${item.word}</h2>
+
+            <p><strong>Type:</strong> ${item.type}</p>
+
+            <p><strong>Position:</strong> ${positions[index]}</p>
+
+        </div>
+
+        `;
+
     });
-  }
+
 }
 
+// ===============================
+// Show Sections
+// ===============================
 
-// ================= SHOW WORD FUNCTION =================
-function showWord(found) {
+function showSection(sectionIndex) {
 
-  const result = document.getElementById("searchResult");
+    const display = document.getElementById("wordDisplay");
 
-  // ===== VERB =====
-  if (found.type === "Verb") {
+    if (currentSection === sectionIndex) {
 
-    result.innerHTML += `
-      <div class="word-item">
-        <h2>Verb: ${found.word}</h2>
+        display.innerHTML = "";
 
-        <p>
-          ${found.trennbar === "yes" ? "Trennbar" : "Nicht trennbar"} – 
-          ${found.regelmaessig === "yes" ? "Regelmäßig" : "Unregelmäßig"} – 
-          ${found.reflexiv === "yes" ? "Reflexiv" : "Nicht reflexiv"}
-        </p>
+        currentSection = null;
 
-        <p><strong>
-          ${found.formen.infinitiv} – 
-          ${found.formen.praeteritum} – 
-          ${found.formen.perfekt}
-        </strong></p>
+        return;
 
-        <p><strong>Englisch:</strong></p>
-        <p>${found.englisch.join(", ")}</p>
-
-        <p><strong>Bangla:</strong></p>
-        <p>${found.bangla.join(", ")}</p>
-      </div>
-    `;
-  }
-
-  // ===== NOUN =====
-  else if (found.type === "Nomen") {
-
-    let cleanWord = found.word.replace(/^(der|die|das)\s+/i, "").trim();
-
-    result.innerHTML += `
-      <div class="word-item">
-        <h2>Nomen: ${found.artikel || ""} ${cleanWord}</h2>
-
-        <p><strong>Plural:</strong> ${found.plural || "—"}</p>
-
-        <p><strong>Englisch:</strong></p>
-        <p>${found.englisch.join(", ")}</p>
-
-        <p><strong>Bangla:</strong></p>
-        <p>${found.bangla.join(", ")}</p>
-      </div>
-    `;
-  }
-
-  // ===== ADJECTIVE =====
-  else if (found.type === "Adjektiv") {
-
-    result.innerHTML += `
-      <div class="word-item">
-        <h2>Adjektiv: ${found.word}</h2>
-
-        <p><strong>Komparativ:</strong> ${found.komparativ || "—"}</p>
-        <p><strong>Superlativ:</strong> ${found.superlativ || "—"}</p>
-
-        <p><strong>Englisch:</strong></p>
-        <p>${found.englisch.join(", ")}</p>
-
-        <p><strong>Bangla:</strong></p>
-        <p>${found.bangla.join(", ")}</p>
-      </div>
-    `;
-  }
-
-  // ===== ADVERB =====
-  else if (found.type === "Adverb") {
-
-    result.innerHTML += `
-      <div class="word-item">
-        <h2>Adverb: ${found.word}</h2>
-
-        <p><strong>Englisch:</strong></p>
-        <p>${found.englisch.join(", ")}</p>
-
-        <p><strong>Bangla:</strong></p>
-        <p>${found.bangla.join(", ")}</p>
-      </div>
-    `;
-  }
-}
-
-
-// ================= ENTER KEY SEARCH =================
-document.getElementById("searchInput")
-  .addEventListener("keypress", function(e) {
-    if (e.key === "Enter") {
-      searchWord();
     }
+
+    currentSection = sectionIndex;
+
+    const start = sectionIndex * 100;
+
+    const end = start + 100;
+
+    const sectionWords = words.slice(start, end);
+
+    const col1 = sectionWords.slice(0, 25);
+    const col2 = sectionWords.slice(25, 50);
+    const col3 = sectionWords.slice(50, 75);
+    const col4 = sectionWords.slice(75, 100);
+
+    display.innerHTML = `
+
+<div class="words-columns">
+
+<div class="column">
+
+${col1.map((item, i) => `
+<div class="word-item">
+${start + i + 1}. ${item.word}
+</div>
+`).join("")}
+
+</div>
+
+<div class="column">
+
+${col2.map((item, i) => `
+<div class="word-item">
+${start + i + 26}. ${item.word}
+</div>
+`).join("")}
+
+</div>
+
+<div class="column">
+
+${col3.map((item, i) => `
+<div class="word-item">
+${start + i + 51}. ${item.word}
+</div>
+`).join("")}
+
+</div>
+
+<div class="column">
+
+${col4.map((item, i) => `
+<div class="word-item">
+${start + i + 76}. ${item.word}
+</div>
+`).join("")}
+
+</div>
+
+</div>
+
+`;
+
+}
+
+// ===============================
+// Enter Key
+// ===============================
+
+document
+.getElementById("searchInput")
+.addEventListener("keydown", function (e) {
+
+    if (e.key === "Enter") {
+
+        searchWord();
+
+    }
+
 });
+
+// ===============================
+// Clear Search Result
+// ===============================
+
+document
+.getElementById("searchInput")
+.addEventListener("input", function () {
+
+    if (this.value.trim() === "") {
+
+        document.getElementById("searchResult").innerHTML = "";
+
+    }
+
+});
+// ===============================
+// Check Duplicate Words
+// ===============================
+
+function checkDuplicates() {
+
+    const report = document.getElementById("duplicateReport");
+
+    const map = new Map();
+
+    words.forEach((item, index) => {
+
+        const key = item.word.toLowerCase().trim();
+
+        if (!map.has(key)) {
+
+            map.set(key, []);
+
+        }
+
+        map.get(key).push({
+            position: index + 1,
+            word: item.word,
+            type: item.type
+        });
+
+    });
+
+    let html = "";
+
+    let duplicateCount = 0;
+
+    map.forEach((entries) => {
+
+        if (entries.length > 1) {
+
+            duplicateCount++;
+
+            html += `
+
+<div class="word-item">
+
+<h2>⚠ ${entries[0].word}</h2>
+
+<p><strong>Total:</strong> ${entries.length}</p>
+
+<p><strong>Positions:</strong>
+${entries.map(e => e.position).join(", ")}
+</p>
+
+<p><strong>Types:</strong>
+${entries.map(e => e.type).join(", ")}
+</p>
+
+</div>
+
+`;
+
+        }
+
+    });
+
+    if (duplicateCount === 0) {
+
+        report.innerHTML = `
+
+<div class="word-item">
+
+<h2>✅ No duplicate words found.</h2>
+
+</div>
+
+`;
+
+    } else {
+
+        report.innerHTML = `
+
+<h2 style="margin:20px 0;">
+⚠ Duplicate Words Found (${duplicateCount})
+</h2>
+
+${html}
+
+`;
+
+    }
+
+}
