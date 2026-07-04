@@ -4,7 +4,24 @@
 
 let words = [];
 let currentSection = null;
+const materials = [
 
+{
+    title:"Goethe B2 Sprechen",
+    file:"pdfs/Goethe B2 Sprechen - Diskussion (Antwort).pdf"
+},
+
+{
+    title:"Goethe B2 Sprechen",
+    file:"pdfs/Goethe B2 Sprechen - Vortrag (Antwort).pdf"
+},
+
+{
+    title:"Sprechen Topics",
+    file:"pdfs/B2 Sprechen Topics (HilfebeiderPrüfung).pdf"
+}
+
+];
 // ===============================
 // About Panel
 // ===============================
@@ -25,6 +42,8 @@ fetch("words.json?v=" + Date.now(), { cache: "no-store" })
 
     console.log("Loaded " + words.length + " words.");
 
+    showWordCount();
+
     checkDuplicates();
 
 })
@@ -36,6 +55,21 @@ fetch("words.json?v=" + Date.now(), { cache: "no-store" })
             "<p>Unable to load words.json.</p>";
 
     });
+    // ===============================
+// Show Total Words
+// ===============================
+
+function showWordCount() {
+
+    document.getElementById("wordCounter").innerHTML = `
+
+<h2>📚 Total Words</h2>
+
+<h1>${words.length}</h1>
+
+`;
+
+}
 
 // ===============================
 // Search
@@ -339,3 +373,47 @@ ${html}
     }
 
 }
+function toggleMaterials(){
+
+    document
+    .getElementById("materialsPanel")
+    .classList.toggle("active");
+
+}
+function loadMaterials(){
+
+    const list=document.getElementById("materialsList");
+
+    list.innerHTML="";
+
+    materials.forEach(pdf=>{
+
+        list.innerHTML+=`
+
+<div class="material-card">
+
+<h3>${pdf.title}</h3>
+
+<iframe src="${pdf.file}"></iframe>
+
+<a href="${pdf.file}" target="_blank">
+
+👁 View
+
+</a>
+
+<a href="${pdf.file}" download>
+
+📥 Download
+
+</a>
+
+</div>
+
+`;
+
+    });
+
+}
+
+loadMaterials();

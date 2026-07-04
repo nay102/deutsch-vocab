@@ -1468,7 +1468,7 @@
     "type": "Verb"
   },
   {
-    "word": "schwatzen",
+    "word": "schwitzen",
     "type": "Verb"
   },
   {
@@ -1598,6 +1598,407 @@
   {
     "word": "runtergehen",
     "type": "Verb"
+  },
+ 
+  {
+    "word": "verlässlich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "erforderlich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "einigermaßen",
+    "type": "Adverb"
+  },
+  {
+    "word": "oberflächlich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "angesprochen",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "hervorragend",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "phänomenal",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "erstaunlich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "ausbaufähig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "frustrierend",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "gleichmäßig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "eindeutig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "eher",
+    "type": "Adverb"
+  },
+  {
+    "word": "vielseitig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "fortgeschritten",
+    "type": "Adjektiv"
+  },
+    {
+    "word": "entmutigt",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "selbstverständlich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "lustigerweise",
+    "type": "Adverb"
+  },
+  {
+    "word": "unvermeidlich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "erkennbar",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "fragwürdig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "ausreichend",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "ausdrücklich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "bezaubernd",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "schattenhaft",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "umfassend",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "erheblich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "naheliegend",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "kritikfähig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "verstaubt",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "hinterher",
+    "type": "Adverb"
+  },
+  {
+    "word": "künftig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "einheitlich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "bezogen",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "nachhaltig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "individuell",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "ausführlich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "zweckmäßig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "ansprechend",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "anschließend",
+    "type": "Adverb"
+  },
+  {
+    "word": "spürbar",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "wiederum",
+    "type": "Adverb"
+  },
+  {
+    "word": "ewig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "folglich",
+    "type": "Adverb"
+  },
+  {
+    "word": "kürzlich",
+    "type": "Adverb"
+  },
+  {
+    "word": "inwiefern",
+    "type": "Adverb"
+  },
+  {
+    "word": "melancholisch",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "effektiv",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "relevant",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "zweifellos",
+    "type": "Adverb"
+  },
+  {
+    "word": "demnach",
+    "type": "Adverb"
+  },
+  {
+    "word": "kurzerhand",
+    "type": "Adverb"
+  },
+  {
+    "word": "auffällig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "konkret",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "einzig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "fester",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "eben",
+    "type": "Adverb"
+  },
+  {
+    "word": "besonnen",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "behilflich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "genial",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "unheimlich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "geflasht",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "zumindest",
+    "type": "Adverb"
+  },
+  {
+    "word": "glatt",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "vorab",
+    "type": "Adverb"
+  },
+  {
+    "word": "ohnehin",
+    "type": "Adverb"
+  },
+  {
+    "word": "vertraut",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "nahezu",
+    "type": "Adverb"
+  },
+  {
+    "word": "beliebig",
+    "type": "Adjektiv"
+  },
+   {
+    "word": "zugehörig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "zugänglich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "bekloppt",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "bescheiden",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "schlau",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "vorteilhaft",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "empfehlenswert",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "unverzichtbar",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "vertrauenswürdig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "zurückhaltend",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "umständlich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "eingehend",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "zunehmend",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "sesshaft",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "exotisch",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "geregelt",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "pauschal",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "aufdringlich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "berauscht",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "herkömmlich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "nachträglich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "lächerlich",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "heftig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "ausnahmsweise",
+    "type": "Adverb"
+  },
+  {
+    "word": "tagsüber",
+    "type": "Adverb"
+  },
+  {
+    "word": "ausgiebig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "belästigend",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "qualvoll",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "freizügig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "anständig",
+    "type": "Adjektiv"
+  },
+  {
+    "word": "anschaulich",
+    "type": "Adjektiv"
   },
   {
     "word": "bezeugen",
@@ -1864,402 +2265,6 @@
     "type": "Verb"
   },
   {
-    "word": "verlässlich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "erforderlich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "einigermaßen",
-    "type": "Adverb"
-  },
-  {
-    "word": "oberflächlich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "angesprochen",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "hervorragend",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "phänomenal",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "erstaunlich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "ausbaufähig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "frustrierend",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "gleichmäßig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "eindeutig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "eher",
-    "type": "Adverb"
-  },
-  {
-    "word": "vielseitig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "fragwürdig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "ausreichend",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "ausdrücklich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "bezaubernd",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "schattenhaft",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "umfassend",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "erheblich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "naheliegend",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "kritikfähig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "verstaubt",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "hinterher",
-    "type": "Adverb"
-  },
-  {
-    "word": "künftig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "einheitlich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "bezogen",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "nachhaltig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "individuell",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "ausführlich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "zweckmäßig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "ansprechend",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "entmutigt",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "selbstverständlich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "lustigerweise",
-    "type": "Adverb"
-  },
-  {
-    "word": "unvermeidlich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "spürbar",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "wiederum",
-    "type": "Adverb"
-  },
-  {
-    "word": "ewig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "folglich",
-    "type": "Adverb"
-  },
-  {
-    "word": "kürzlich",
-    "type": "Adverb"
-  },
-  {
-    "word": "inwiefern",
-    "type": "Adverb"
-  },
-  {
-    "word": "melancholisch",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "effektiv",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "relevant",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "zweifellos",
-    "type": "Adverb"
-  },
-  {
-    "word": "demnach",
-    "type": "Adverb"
-  },
-  {
-    "word": "kurzerhand",
-    "type": "Adverb"
-  },
-  {
-    "word": "auffällig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "konkret",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "einzig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "fester",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "eben",
-    "type": "Adverb"
-  },
-  {
-    "word": "besonnen",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "behilflich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "genial",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "unheimlich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "geflasht",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "zumindest",
-    "type": "Adverb"
-  },
-  {
-    "word": "glatt",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "vorab",
-    "type": "Adverb"
-  },
-  {
-    "word": "ohnehin",
-    "type": "Adverb"
-  },
-  {
-    "word": "vertraut",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "nahezu",
-    "type": "Adverb"
-  },
-  {
-    "word": "beliebig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "fortgeschritten",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "erkennbar",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "anschließend",
-    "type": "Adverb"
-  },
-  {
-    "word": "zugänglich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "bekloppt",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "bescheiden",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "schlau",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "vorteilhaft",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "empfehlenswert",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "unverzichtbar",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "vertrauenswürdig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "zurückhaltend",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "umständlich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "eingehend",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "zunehmend",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "sesshaft",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "exotisch",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "geregelt",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "pauschal",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "aufdringlich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "berauscht",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "herkömmlich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "nachträglich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "lächerlich",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "heftig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "ausnahmsweise",
-    "type": "Adverb"
-  },
-  {
-    "word": "tagsüber",
-    "type": "Adverb"
-  },
-  {
-    "word": "ausgiebig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "belästigend",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "qualvoll",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "freizügig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "anständig",
-    "type": "Adjektiv"
-  },
-  {
-    "word": "anschaulich",
-    "type": "Adjektiv"
-  },
-  {
     "word": "sich benehmen",
     "type": "Verb"
   },
@@ -2389,6 +2394,10 @@
   },
   {
     "word": "sich aneignen",
+    "type": "Verb"
+  },
+  {
+    "word": "sich räuspern",
     "type": "Verb"
   }
 ]

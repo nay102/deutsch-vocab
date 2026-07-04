@@ -28,15 +28,26 @@
   </div>
 
 </div>
+<div id="materialsPanel" class="materials-panel">
 
+    <button class="close-btn" onclick="toggleMaterials()">✖</button>
+
+    <h2>📚 Learn Materials</h2>
+
+    <div id="materialsList"></div>
+
+</div>
 <div class="container">
 
 <h1>My German vocabulary <br> <h2> Niveau B1 & B2 </h2> </h1>
-
+<div id="wordCounter" class="word-item"></div>
 <!-- SEARCH -->
 <div class="search-box">
     <input type="text" id="searchInput" placeholder="Search word...">
     <button onclick="searchWord()">Search</button>
+    <button onclick="toggleMaterials()">
+    📚 Learn Materials
+</button>
 </div>
 
 <div id="searchResult"></div>

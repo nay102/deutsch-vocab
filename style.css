@@ -455,9 +455,9 @@ button:hover{
 
     border-radius:16px;
 
-    padding:14px 18px;
+    padding:5px 10px;
 
-    margin-bottom:12px;
+    margin-bottom:10px;
 
     color:#ffffff;
 
@@ -481,11 +481,11 @@ button:hover{
 
 .word-item h2{
 
-    margin:0 0 10px;
+    margin:0 5px;
 
     color:#ffd54f;
 
-    font-size:22px;
+    font-size:20px;
 
 }
 
@@ -862,5 +862,157 @@ button:hover{
         padding:12px;
 
     }
+
+}
+/* ===========================
+   TOTAL WORD COUNTER
+=========================== */
+
+#wordCounter{
+
+    display:inline-block;
+
+    margin:5px auto;
+
+    padding:5px;
+
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+
+    color:#fff;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+    text-align:center;
+
+    min-width:180px;
+
+    transition:.3s;
+
+}
+
+#wordCounter:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.35);
+
+}
+
+#wordCounter h2{
+
+    margin:0;
+
+    font-size:15px;
+
+    color:#ffe082;
+
+    font-weight:600;
+
+    letter-spacing:.5px;
+
+}
+
+#wordCounter h1{
+
+    margin:6px 0 0;
+
+    font-size:34px;
+
+    color:white;
+
+    font-weight:700;
+
+}
+.materials-panel{
+
+    position:fixed;
+
+    top:0;
+
+    right:-550px;
+
+    width:500px;
+
+    max-width:95%;
+
+    height:100%;
+
+    background:white;
+
+    color:#222;
+
+    overflow-y:auto;
+
+    transition:.35s;
+
+    padding:20px;
+
+    z-index:9999;
+
+    box-shadow:-5px 0 25px rgba(0,0,0,.3);
+
+}
+
+.materials-panel.active{
+
+    right:0;
+
+}
+
+.material-card{
+
+    background:#f3f4f6;
+
+    border-radius:12px;
+
+    padding:15px;
+
+    margin-bottom:20px;
+
+}
+
+.material-card iframe{
+
+    width:100%;
+
+    height:250px;
+
+    border:none;
+
+    border-radius:10px;
+
+}
+
+.material-card h3{
+
+    margin:10px 0;
+
+}
+
+.material-card a{
+
+    display:inline-block;
+
+    margin-right:10px;
+
+    margin-top:10px;
+
+    padding:10px 16px;
+
+    background:#2563eb;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+}
+
+.material-card a:hover{
+
+    background:#1d4ed8;
 
 }
